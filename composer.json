@@ -1,5 +1,5 @@
 {
-    "name": "WitherHosting/pterodactyl-sso",
+    "name": "witherhosting/pterodactyl-sso",
     "description": "Allows clients to SSO login to their Pterodactyl account with a single redirect",
     "type": "library",
     "license": "MIT",
