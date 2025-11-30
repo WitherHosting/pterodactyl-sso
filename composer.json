@@ -1,0 +1,34 @@
+{
+    "name": "WitherHosting/pterodactyl-sso",
+    "description": "Allows clients to SSO login to their Pterodactyl account with a single redirect",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mubeen Ullah",
+            "email": "mubeen@wemx.net"
+        },
+        {
+            "name": "AlexPads",
+            "email": "alex@witherhosting.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0|^8.1|^8.2|^8.3",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WitherHosting\\SSO\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WitherHosting\\SSO\\SsoServiceProvider"
+            ]
+        }
+    }
+}
